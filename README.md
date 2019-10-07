@@ -39,8 +39,7 @@ After installation of dependencies, you can access the help of this script as **
 The following line exemplifies available arguments. Note that only the **-traj** is mandatory (if trajectory does not contain topological information, then **-top** argument is also required).
 
 ```
-python QT.py **-traj** trajectory.dcd **-top** topology.psf **-first** 0 **-last** 100 **-stride** 5 **-sel** backbone
- **-cutoff** 4 **-minsize** 50 -odir ./
+python QT.py -traj trajectory.dcd -top topology.psf -first 0 -last 100 -stride 5 -sel backbone -cutoff 4 -minsize 50 -odir ./
 ```
 
 **-traj**: the path to the trajectory file
