@@ -29,7 +29,7 @@ $ pip install mdtraj
 
 * **Numpy**
 
-If Numpy is not already present in your system, see the [recommended options](https://scipy.org/install.html)
+If Numpy is not already present in your system, see the [recommended options](https://scipy.org/install.html) to install it. 
 
 
 ## Getting Started
@@ -39,7 +39,7 @@ After installation of dependencies, you can access the help of this script as **
 The following line exemplifies available arguments. Note that only the **-traj** is mandatory (if trajectory does not contain topological information, then **-top** argument is also required).
 
 ```
-python QT.py -traj trajectory.dcd -top topology.psf -first -last -stride -sel -cutoff 4-minsize -odir "./"
+python QT.py -traj trajectory.dcd -top topology.psf -first -last -stride -sel -cutoff 4 -minsize -odir "./"
 ```
 
 **-traj**: the path to the trajectory file
