@@ -71,7 +71,7 @@ use it for importing the **QT_Visualization.log** file and visualize the results
 This option is under revision ...
 
 ## Authors 
-[![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://GitHub.com/Naereen/ama)
+[![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://www.linkedin.com/in/roy-gonz%C3%A1lez-alem%C3%A1n-aba3aba3/)
 
 [**Roy González-Alemán**](https://www.linkedin.com/in/roy-gonz%C3%A1lez-alem%C3%A1n-aba3aba3/) 
 
