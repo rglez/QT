@@ -196,6 +196,6 @@ np.savetxt('QT_Clusters.txt', clusters_arr, fmt='%i')
 with open('QT_Visualization.log', 'wt') as clq:
     for numcluster in np.unique(clusters_arr):
         clq.write('{}:\n'.format(numcluster))
-        members = ' '.join([str(x)
+        members = ' '.join([str(x + 1)
                             for x in np.where(clusters_arr == numcluster)[0]])
         clq.write('Members: ' + members + '\n\n')
